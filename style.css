@@ -1,0 +1,182 @@
+*{
+
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.container{
+
+    margin: 0;
+    padding: 0;
+    
+
+
+    
+}
+
+.heading{
+
+      padding: 20px ;
+    background-color: #000000;
+    text-align: center;
+    color: #40A2D8;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.todo-box{
+    
+
+    width: 100vw;
+   
+    
+    text-align: center;
+
+    
+}
+
+
+
+
+.todo-box >form{
+
+    width: 600px;
+    margin: 80px auto;
+    height: 600px;
+    border: 20px solid #0B60B0;
+    border-radius: 7px;
+
+}
+
+
+
+.todo-box >form > input{
+
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+    border: 2px solid #0B60B0;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+ 
+    
+
+}
+
+
+.todo-box >form > textarea{
+
+    width: 80%;
+    margin: 20px auto;
+    height: 300px;
+    border: 2px solid #0B60B0;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    
+
+}
+
+
+.todo-box >form > button{
+
+    width: 80%;
+    margin: 10px auto;
+   
+    height: 40px;
+    background-color: #0B60B0;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    border-radius: 7px;
+
+    transition: all 0.25s ease-in-out;
+    
+    
+
+}
+
+.todo-box> form > button:hover{
+    background-color: #40A2D8;
+    color: #000000;
+
+}
+
+
+#root{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.todo-item{
+
+    width: 300px;
+    border: 5px solid #40A2D8;
+    margin: 30px;
+}
+
+.modalcover{
+
+    
+    border: 15px solid #0B60B0;
+    padding: 20px;
+    margin: 40px ;
+}
+
+
+.modal{
+  
+    width: 100%;
+
+    
+    
+
+}
+
+.modal> input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+    border: 2px solid #0B60B0;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal> textarea{
+    display: block;
+
+    width: 80%;
+    margin: 20px auto;
+    height: 300px;
+    border: 2px solid #0B60B0;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal> button{
+
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+
+    height: 40px;
+    background-color: #0B60B0;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+    border-radius: 7px;
+
+    transition: all 0.25s ease-in-out;
+}
+
